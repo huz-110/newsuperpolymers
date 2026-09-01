@@ -8,8 +8,7 @@
    ever flips to white: variation comes from elevation, not
    from inverting the page.
 
-   Instrument Serif (statements) / Schibsted Grotesk (structure)
-   / IBM Plex Mono (technical data)
+   Rubik (statements + structure) / IBM Plex Mono (technical data)
    ============================================================ */
 
 /* ---------- 1. Tokens ---------- */
@@ -82,10 +81,10 @@
   --max:        1320px;
   --max-narrow: 780px;
 
-  --font-display: 'Instrument Serif', 'Iowan Old Style', Georgia, serif;
-  --font-ui:      'Schibsted Grotesk', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-display: 'Rubik', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-ui:      'Rubik', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
   --font-mono:    'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
-  --font-serif:   'Instrument Serif', Georgia, serif;
+  --font-serif:   'Rubik', -apple-system, Helvetica, Arial, sans-serif;
 
   --ease:     cubic-bezier(.22,.61,.36,1);
   --ease-out: cubic-bezier(.16,1,.3,1);
@@ -185,24 +184,24 @@ table { border-collapse: collapse; width: 100%; }
 
 h1, .h1, h2, .h2, h3, .h3, .mega {
   font-family: var(--font-display);
-  font-weight: 400;
+  font-weight: 600;
   text-wrap: balance;
   color: var(--fg);
 }
-h1, .h1 { font-size: var(--t-h1); line-height: 0.96; letter-spacing: -0.022em; }
-h2, .h2 { font-size: var(--t-h2); line-height: 1.0;  letter-spacing: -0.02em; }
-h3, .h3 { font-size: var(--t-h3); line-height: 1.1;  letter-spacing: -0.015em; }
-.mega   { font-size: var(--t-mega); line-height: 0.9; letter-spacing: -0.028em; }
+h1, .h1 { font-size: var(--t-h1); line-height: 1.0;  letter-spacing: -0.035em; }
+h2, .h2 { font-size: var(--t-h2); line-height: 1.03; letter-spacing: -0.033em; }
+h3, .h3 { font-size: var(--t-h3); line-height: 1.14; letter-spacing: -0.025em; }
+.mega   { font-size: var(--t-mega); line-height: 0.96; letter-spacing: -0.042em; }
 h4, .h4 {
   font-family: var(--font-ui); font-size: var(--t-h4); font-weight: 600;
-  line-height: 1.3; letter-spacing: -0.012em; color: var(--fg);
+  line-height: 1.32; letter-spacing: -0.022em; color: var(--fg);
 }
 
 .lead { font-size: var(--t-lead); line-height: 1.58; color: var(--fg-2); font-weight: 400; }
 .muted { color: var(--fg-2); }
 .small { font-size: var(--t-sm); line-height: 1.6; }
 .mono  { font-family: var(--font-mono); font-size: var(--t-mono); letter-spacing: 0.14em; text-transform: uppercase; }
-.serif { font-family: var(--font-serif); font-style: italic; }
+.serif { font-family: var(--font-serif); font-style: italic; font-weight: 300; }
 .prose p + p { margin-top: 1.1em; }
 .accent { color: var(--gold); }
 
@@ -284,7 +283,7 @@ h4, .h4 {
 .brand-txt { display: flex; flex-direction: column; line-height: 1; }
 .brand-txt b {
   font-family: var(--font-ui);
-  font-size: 30px; font-weight: 600; letter-spacing: -0.026em;
+  font-size: 30px; font-weight: 600; letter-spacing: -0.038em;
   color: var(--fg); white-space: nowrap;
   transition: font-size .45s var(--ease);
 }
@@ -344,8 +343,8 @@ body.menu-open .burger span::after { transform: translateY(-7px) rotate(-45deg);
 }
 body.menu-open .mobile-nav { clip-path: inset(0 0 0 0); }
 .mobile-nav a.mn-link {
-  display: block; font-family: var(--font-display); font-weight: 400;
-  font-size: clamp(2rem, 8vw, 3.25rem); letter-spacing: -.02em;
+  display: block; font-family: var(--font-display); font-weight: 600;
+  font-size: clamp(2rem, 8vw, 3.25rem); letter-spacing: -.035em;
   padding: .22em 0; border-bottom: 1px solid var(--line);
   opacity: 0; transform: translateY(18px);
   transition: opacity .5s var(--ease), transform .5s var(--ease), color .3s var(--ease);
@@ -393,8 +392,8 @@ body.menu-open .mobile-nav a.mn-link { opacity: 1; transform: none; }
 .stat:last-child { border-right: 0; }
 
 .stat b {
-  display: block; font-family: var(--font-display); font-weight: 400;
-  font-size: clamp(1.75rem, 1.1rem + 2.1vw, 2.875rem); letter-spacing: -.02em; line-height: 1;
+  display: block; font-family: var(--font-display); font-weight: 600;
+  font-size: clamp(1.75rem, 1.1rem + 2.1vw, 2.875rem); letter-spacing: -.035em; line-height: 1;
   font-variant-numeric: tabular-nums;
   background: linear-gradient(168deg, #FFF6E7, var(--gold) 50%, var(--gold-2));
   -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;
@@ -559,8 +558,8 @@ body.menu-open .mobile-nav a.mn-link { opacity: 1; transform: none; }
 /* Oversized wordmark closing the page */
 .ftr-mark {
   margin-top: clamp(2.5rem, 5vw, 4rem); padding-top: clamp(2rem, 3vw, 3rem);
-  font-family: var(--font-display); font-weight: 400;
-  font-size: clamp(2.4rem, 9.2vw, 8.5rem); line-height: 1.06; letter-spacing: -.03em;
+  font-family: var(--font-display); font-weight: 600;
+  font-size: clamp(2.4rem, 9.2vw, 8.5rem); line-height: 1.06; letter-spacing: -.045em;
   text-align: center; white-space: nowrap; overflow: hidden;
   padding-bottom: .18em;
   background: linear-gradient(178deg, rgba(232,192,138,.32) 0%, rgba(232,192,138,.05) 74%, transparent 100%);
@@ -630,8 +629,8 @@ body.menu-open .mobile-nav a.mn-link { opacity: 1; transform: none; }
 
 /* ---------- 20. Quote ---------- */
 .quote {
-  font-family: var(--font-serif); font-style: italic; font-weight: 400;
-  font-size: clamp(1.5rem, 1.05rem + 2vw, 2.5rem); line-height: 1.26; letter-spacing: -.012em;
+  font-family: var(--font-serif); font-style: italic; font-weight: 300;
+  font-size: clamp(1.5rem, 1.05rem + 2vw, 2.5rem); line-height: 1.32; letter-spacing: -.022em;
   color: var(--fg);
 }
 
