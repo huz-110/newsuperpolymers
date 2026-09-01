@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Collapsing frame">
+<defs>
+  <marker id="arF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0 0L10 5L0 10z" fill="#D9743C"/>
+  </marker>
+  <marker id="adF" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M0 0L10 5L0 10z" fill="#75929C"/>
+  </marker>
+  <linearGradient id="mtF" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#D9743C" stop-opacity=".85"/><stop offset="1" stop-color="#E8C08A" stop-opacity=".35"/>
+  </linearGradient>
+  <linearGradient id="stF" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1B3A45"/><stop offset="0.5" stop-color="#102630"/><stop offset="1" stop-color="#0A1B23"/>
+  </linearGradient>
+  <radialGradient id="hgF" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#D9743C" stop-opacity=".30"/><stop offset="1" stop-color="#D9743C" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="640" height="400" fill="#071419"/>
+<g stroke="#12303A" stroke-width="1" opacity=".8">
+  <path d="M0 80H640M0 160H640M0 240H640M0 320H640"/>
+  <path d="M80 0V400M160 0V400M240 0V400M320 0V400M400 0V400M480 0V400M560 0V400"/>
+</g>
+
+<!-- bubble bottom -->
+<path d="M140 380 C 138 372, 138 356, 140 344" fill="none" stroke="#D9743C" stroke-width="2.4"/>
+<path d="M500 380 C 502 372, 502 356, 500 344" fill="none" stroke="#D9743C" stroke-width="2.4"/>
+<path d="M140 344 L286 44 L354 44 L500 344 L500 380 L140 380 Z" fill="url(#hgF)" opacity=".7"/>
+<!-- frame rails -->
+<path d="M140 344 L286 44" stroke="#EDF6F7" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M500 344 L354 44" stroke="#EDF6F7" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M152 348 L296 52" stroke="#75929C" stroke-width="1.2" opacity=".6"/>
+<path d="M488 348 L344 52" stroke="#75929C" stroke-width="1.2" opacity=".6"/>
+<g><circle cx="140" cy="344" r="7" fill="#0E2530" stroke="#A7BFC5" stroke-width="1.3"/><circle cx="500" cy="344" r="7" fill="#0E2530" stroke="#A7BFC5" stroke-width="1.3"/><circle cx="164" cy="294" r="7" fill="#0E2530" stroke="#A7BFC5" stroke-width="1.3"/><circle cx="476" cy="294" r="7" fill="#0E2530" stroke="#A7BFC5" stroke-width="1.3"/><circle cx="189" cy="244" r="7" fill="#0E2530" stroke="#A7BFC5" stroke-width="1.3"/><circle cx="451" cy="244" r="7" fill="#0E2530" stroke="#A7BFC5" stroke-width="1.3"/><circle cx="213" cy="194" r="7" fill="#0E2530" stroke="#A7BFC5" stroke-width="1.3"/><circle cx="427" cy="194" r="7" fill="#0E2530" stroke="#A7BFC5" stroke-width="1.3"/><circle cx="237" cy="144" r="7" fill="#0E2530" stroke="#A7BFC5" stroke-width="1.3"/><circle cx="403" cy="144" r="7" fill="#0E2530" stroke="#A7BFC5" stroke-width="1.3"/><circle cx="262" cy="94" r="7" fill="#0E2530" stroke="#A7BFC5" stroke-width="1.3"/><circle cx="378" cy="94" r="7" fill="#0E2530" stroke="#A7BFC5" stroke-width="1.3"/><circle cx="286" cy="44" r="7" fill="#0E2530" stroke="#A7BFC5" stroke-width="1.3"/><circle cx="354" cy="44" r="7" fill="#0E2530" stroke="#A7BFC5" stroke-width="1.3"/></g>
+<!-- film edges converging -->
+<path d="M140 380 L286 44" stroke="#D9743C" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
+<path d="M500 380 L354 44" stroke="#D9743C" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
+<!-- flat film out -->
+<rect x="286" y="30" width="68" height="16" fill="#D9743C" opacity=".35" stroke="#D9743C" stroke-width="1.6"/>
+<text x="370" y="42" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#D9743C">FLATTENED TUBE</text>
+<!-- annotations -->
+<text x="40" y="364" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#EDF6F7">INFLATED</text>
+<text x="40" y="380" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#75929C">BUBBLE</text>
+<g stroke="#75929C" stroke-width="1" stroke-dasharray="4 4" opacity=".7">
+ <path d="M40 236h150"/>
+</g>
+<text x="40" y="182" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#75929C">CONVERGING</text>
+<text x="40" y="196" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#75929C">ROLLER RAILS</text>
+<text x="40" y="216" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#D9743C">GRADUAL — NO CREASE</text>
+
+<text x="624" y="386" font-family="monospace" font-size="10" letter-spacing="2" text-anchor="end" fill="#75929C">COLLAPSING FRAME</text>
+</svg>

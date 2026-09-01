@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Orange radium PVC lay flat tubing roll">
+<defs>
+  <linearGradient id="bgorange" x1=".2" y1="0" x2=".8" y2="1">
+    <stop offset="0" stop-color="#071419"/><stop offset="1" stop-color="#050F15"/>
+  </linearGradient>
+  <radialGradient id="glorange" cx=".5" cy=".55" r=".5">
+    <stop offset="0" stop-color="#F08630" stop-opacity=".40"/>
+    <stop offset="1" stop-color="#F08630" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="bdorange" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0"    stop-color="#90501C"/>
+    <stop offset="0.14" stop-color="#F3A05D"/>
+    <stop offset="0.34" stop-color="#F08630"/>
+    <stop offset="0.60" stop-color="#CE7329"/>
+    <stop offset="0.86" stop-color="#F3A05D"/>
+    <stop offset="1"    stop-color="#90501C"/>
+  </linearGradient>
+  <linearGradient id="cporange" x1=".2" y1="0" x2=".9" y2="1">
+    <stop offset="0" stop-color="#F5B37E"/><stop offset="1" stop-color="#C46D27"/>
+  </linearGradient>
+  <linearGradient id="florange" x1="0" y1="0" x2="1" y2=".5">
+    <stop offset="0"   stop-color="#F08630" stop-opacity="0.85"/>
+    <stop offset="0.5" stop-color="#F3A05D" stop-opacity="0.72"/>
+    <stop offset="1"   stop-color="#F08630" stop-opacity="0.9"/>
+  </linearGradient>
+  <linearGradient id="shorange" x1="0" y1="0" x2="1" y2=".32">
+    <stop offset="0"    stop-color="#fff" stop-opacity="0"/>
+    <stop offset="0.40" stop-color="#fff" stop-opacity="0.42"/>
+    <stop offset="0.53" stop-color="#fff" stop-opacity="0.05"/>
+    <stop offset="1"    stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+
+<rect width="800" height="600" fill="url(#bgorange)"/>
+<g stroke="#12303A" stroke-width="1" opacity=".85">
+  <path d="M0 150H800M0 300H800M0 450H800"/>
+  <path d="M160 0V600M320 0V600M480 0V600M640 0V600"/>
+</g>
+<ellipse cx="400" cy="312" rx="330" ry="230" fill="url(#glorange)"/>
+
+<!-- unwound layflat film -->
+<path d="M232 196 C 150 150, 96 176, 74 236 C 58 282, 84 322, 128 330 L 128 306 C 104 300, 92 278, 102 250 C 118 208, 168 194, 232 218 Z"
+      fill="url(#florange)" stroke="#F19244" stroke-width="1.1" stroke-opacity=".45"/>
+<path d="M232 218 C 168 194, 118 208, 102 250 C 92 278, 104 300, 128 306"
+      fill="none" stroke="#fff" stroke-width="1.1" stroke-opacity=".38"/>
+
+<!-- roll body -->
+<ellipse cx="232" cy="310" rx="44" ry="116" fill="#784318"/>
+<rect x="232" y="194" width="330" height="232" fill="url(#bdorange)"/>
+<rect x="232" y="194" width="330" height="232" fill="url(#shorange)"/>
+<g stroke="#AC6022" stroke-width="0.8" opacity=".32">
+  <path d="M300 194V426M368 194V426M436 194V426M504 194V426"/>
+</g>
+<ellipse cx="562" cy="310" rx="44" ry="116" fill="url(#cporange)" stroke="#F3A463" stroke-width="1.1" stroke-opacity=".5"/>
+<ellipse cx="562" cy="310" rx="33" ry="88" fill="none" stroke="#A85D21" stroke-width="1" opacity=".55"/>
+<ellipse cx="562" cy="310" rx="22" ry="59" fill="none" stroke="#A85D21" stroke-width="1" opacity=".4"/>
+<ellipse cx="562" cy="310" rx="12" ry="32" fill="#C9B48C" stroke="#A08E68" stroke-width="1.2"/>
+<ellipse cx="562" cy="310" rx="7" ry="19" fill="#7C6C4E"/>
+
+<!-- technical callouts -->
+<g font-family="monospace" font-size="11" letter-spacing="1.6">
+  <g stroke="#75929C" stroke-width="1" stroke-dasharray="3 3" fill="none" opacity=".7">
+    <path d="M620 310H690"/><path d="M232 452H562"/>
+  </g>
+  <g stroke="#E8C08A" stroke-width="1.4" fill="none" opacity=".9">
+    <path d="M690 200V420"/><path d="M686 200h8M686 420h8"/>
+    <path d="M232 446v12M562 446v12"/>
+  </g>
+  <text x="702" y="304" fill="#EDF6F7">ROLL</text>
+  <text x="702" y="320" fill="#75929C">DIA.</text>
+  <text x="397" y="478" text-anchor="middle" fill="#EDF6F7">LAY-FLAT WIDTH</text>
+  <text x="74" y="366" fill="#75929C">GAUGE 0.05&#8211;0.40 MM</text>
+  <text x="74" y="384" fill="#75929C">50&#8211;400 MICRON</text>
+</g>
+<text x="740" y="566" font-family="monospace" font-size="10" letter-spacing="2"
+      text-anchor="end" fill="#75929C" opacity=".8">NSP &#183; PVC LAY FLAT TUBING</text>
+</svg>

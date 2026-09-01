@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="In-house quality control">
+<defs>
+  <marker id="arQ" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0 0L10 5L0 10z" fill="#D9743C"/>
+  </marker>
+  <marker id="adQ" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M0 0L10 5L0 10z" fill="#75929C"/>
+  </marker>
+  <linearGradient id="mtQ" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#D9743C" stop-opacity=".85"/><stop offset="1" stop-color="#E8C08A" stop-opacity=".35"/>
+  </linearGradient>
+  <linearGradient id="stQ" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1B3A45"/><stop offset="0.5" stop-color="#102630"/><stop offset="1" stop-color="#0A1B23"/>
+  </linearGradient>
+  <radialGradient id="hgQ" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#D9743C" stop-opacity=".30"/><stop offset="1" stop-color="#D9743C" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="640" height="400" fill="#071419"/>
+<g stroke="#12303A" stroke-width="1" opacity=".8">
+  <path d="M0 80H640M0 160H640M0 240H640M0 320H640"/>
+  <path d="M80 0V400M160 0V400M240 0V400M320 0V400M400 0V400M480 0V400M560 0V400"/>
+</g>
+
+<!-- bench -->
+<path d="M40 330h240M52 330v42M268 330v42" stroke="#A7BFC5" stroke-width="2" stroke-linecap="round"/>
+<!-- film strip -->
+<rect x="62" y="238" width="200" height="22" fill="#D9743C" opacity=".3" stroke="#D9743C" stroke-width="1.6"/>
+<text x="62" y="232" font-family="monospace" font-size="9" letter-spacing="1.5" text-anchor="start" fill="#D9743C">EVERY ROLL</text>
+<!-- micrometer -->
+<path d="M120 178h84v30h-84z" fill="url(#stQ)" stroke="#EDF6F7" stroke-width="1.5"/>
+<path d="M156 208v22" stroke="#EDF6F7" stroke-width="3"/>
+<path d="M142 230h28v10h-28z" fill="#EDF6F7"/>
+<path d="M156 272v18" stroke="#EDF6F7" stroke-width="3"/>
+<path d="M142 290h28v10h-28z" fill="#EDF6F7"/>
+<circle cx="240" cy="193" r="16" fill="#0C1F28" stroke="#A7BFC5" stroke-width="1.3"/>
+<path d="M240 183v10h8" stroke="#D9743C" stroke-width="1.6" fill="none"/>
+<text x="120" y="166" font-family="monospace" font-size="9" letter-spacing="1.5" text-anchor="start" fill="#EDF6F7">DIGITAL THICKNESS GAUGE</text>
+<text x="40" y="352" font-family="monospace" font-size="9" letter-spacing="1.5" text-anchor="start" fill="#75929C">MICRON · WIDTH · TENSILE</text>
+<text x="40" y="366" font-family="monospace" font-size="9" letter-spacing="1.5" text-anchor="start" fill="#75929C">ELONGATION · COLOUR ΔE</text>
+<!-- chart -->
+<rect x="300" y="120" width="290" height="200" rx="4" fill="#08161D" stroke="#12303A" stroke-width="1.4"/>
+<g><rect x="316" y="221" width="12" height="93" fill="#D9743C" opacity="0.35"/><rect x="338" y="209" width="12" height="105" fill="#D9743C" opacity="0.49"/><rect x="360" y="215" width="12" height="99" fill="#D9743C" opacity="0.63"/><rect x="382" y="203" width="12" height="111" fill="#D9743C" opacity="0.35"/><rect x="404" y="212" width="12" height="102" fill="#D9743C" opacity="0.49"/><rect x="426" y="206" width="12" height="108" fill="#D9743C" opacity="0.63"/><rect x="448" y="218" width="12" height="96" fill="#D9743C" opacity="0.35"/><rect x="470" y="208" width="12" height="106" fill="#D9743C" opacity="0.49"/><rect x="492" y="214" width="12" height="100" fill="#D9743C" opacity="0.63"/><rect x="514" y="204" width="12" height="110" fill="#D9743C" opacity="0.35"/><rect x="536" y="216" width="12" height="98" fill="#D9743C" opacity="0.49"/><rect x="558" y="210" width="12" height="104" fill="#D9743C" opacity="0.63"/></g>
+<path d="M310 226h270" stroke="#A7BFC5" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="584" y="220" font-family="monospace" font-size="8.5" letter-spacing="1.5" text-anchor="end" fill="#A7BFC5">NOMINAL</text>
+<path d="M310 196h270" stroke="#75929C" stroke-width="1" stroke-dasharray="3 4" opacity=".7"/>
+<path d="M310 258h270" stroke="#75929C" stroke-width="1" stroke-dasharray="3 4" opacity=".7"/>
+<text x="584" y="192" font-family="monospace" font-size="8.5" letter-spacing="1.5" text-anchor="end" fill="#75929C">+ TOL</text>
+<text x="584" y="254" font-family="monospace" font-size="8.5" letter-spacing="1.5" text-anchor="end" fill="#75929C">− TOL</text>
+<text x="312" y="144" font-family="monospace" font-size="9.5" letter-spacing="1.5" text-anchor="start" fill="#EDF6F7">GAUGE UNIFORMITY ACROSS WEB</text>
+<text x="312" y="336" font-family="monospace" font-size="9" letter-spacing="1.5" text-anchor="start" fill="#D9743C">RETAINED SAMPLES + TRACEABILITY</text>
+
+<text x="624" y="386" font-family="monospace" font-size="10" letter-spacing="2" text-anchor="end" fill="#75929C">IN-HOUSE QUALITY CONTROL</text>
+</svg>

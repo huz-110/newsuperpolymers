@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="PVC sheet roll">
+<defs>
+ <linearGradient id="bgS" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071419"/><stop offset="1" stop-color="#050F15"/></linearGradient>
+ <marker id="arS" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#E8C08A"/></marker>
+</defs>
+<rect width="800" height="600" fill="url(#bgS)"/>
+<g stroke="#12303A" stroke-width="1" opacity=".85"><path d="M0 150H800M0 300H800M0 450H800"/><path d="M160 0V600M320 0V600M480 0V600M640 0V600"/></g>
+<defs>
+ <linearGradient id="shb" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#9EB6C4"/><stop offset=".18" stop-color="#D9E6EC"/><stop offset=".45" stop-color="#B9CEDA"/>
+  <stop offset=".78" stop-color="#DCE8EE"/><stop offset="1" stop-color="#93AAB8"/></linearGradient>
+ <linearGradient id="shf" x1="0" y1="0" x2="1" y2=".4">
+  <stop offset="0" stop-color="#C8DBE4" stop-opacity=".92"/><stop offset=".5" stop-color="#EAF2F5" stop-opacity=".7"/>
+  <stop offset="1" stop-color="#BAD0DB" stop-opacity=".9"/></linearGradient>
+</defs>
+<path d="M300 210 C 220 176, 130 200, 92 258 C 62 304, 78 352, 126 372 L 132 348 C 100 334, 92 300, 114 268 C 148 218, 226 208, 300 236 Z"
+      fill="url(#shf)" stroke="#9FC3CE" stroke-width="1.2"/>
+<path d="M300 236 C 226 208, 148 218, 114 268 C 92 300, 100 334, 132 348" fill="none" stroke="#fff" stroke-width="1.2" stroke-opacity=".6"/>
+<ellipse cx="300" cy="312" rx="40" ry="106" fill="#3E5A66"/>
+<rect x="300" y="206" width="260" height="212" fill="url(#shb)"/>
+<g stroke="#9FC3CE" stroke-width=".8" opacity=".4"><path d="M356 206v212M412 206v212M468 206v212M524 206v212"/></g>
+<ellipse cx="560" cy="312" rx="40" ry="106" fill="#DDE9EE" stroke="#9FC3CE" stroke-width="1.2"/>
+<ellipse cx="560" cy="312" rx="28" ry="76" fill="none" stroke="#9FC3CE" stroke-width="1" opacity=".6"/>
+<ellipse cx="560" cy="312" rx="11" ry="30" fill="#C9B48C" stroke="#A08E68" stroke-width="1.2"/>
+<g stroke="#75929C" stroke-width="1" stroke-dasharray="3 3" opacity=".85" fill="none"><path d="M300 452h260"/></g>
+<g stroke="#E8C08A" stroke-width="1.4" fill="none"><path d="M300 446v12M560 446v12"/><path d="M636 206V418"/><path d="M632 206h8M632 418h8"/></g>
+<path d="M600 312h30" stroke="#75929C" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="430" y="478" font-family="monospace" font-size="11" letter-spacing="1.5" text-anchor="middle" fill="#EDF6F7">SHEET WIDTH</text>
+<text x="648" y="308" font-family="monospace" font-size="11" letter-spacing="1.5" text-anchor="start" fill="#EDF6F7">ROLL</text>
+<text x="648" y="324" font-family="monospace" font-size="11" letter-spacing="1.5" text-anchor="start" fill="#75929C">DIA.</text>
+<text x="80" y="404" font-family="monospace" font-size="11" letter-spacing="1.5" text-anchor="start" fill="#75929C">SINGLE WALL — NOT TUBULAR</text>
+<text x="80" y="422" font-family="monospace" font-size="11" letter-spacing="1.5" text-anchor="start" fill="#75929C">CUT, WELD, FOLD OR CONVERT</text>
+<text x="760" y="566" font-family="monospace" font-size="10" letter-spacing="2" text-anchor="end" fill="#75929C">NSP · PVC SHEET ROLL</text></svg>

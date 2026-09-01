@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Winder">
+<defs>
+  <marker id="arW" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0 0L10 5L0 10z" fill="#D9743C"/>
+  </marker>
+  <marker id="adW" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M0 0L10 5L0 10z" fill="#75929C"/>
+  </marker>
+  <linearGradient id="mtW" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#D9743C" stop-opacity=".85"/><stop offset="1" stop-color="#E8C08A" stop-opacity=".35"/>
+  </linearGradient>
+  <linearGradient id="stW" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1B3A45"/><stop offset="0.5" stop-color="#102630"/><stop offset="1" stop-color="#0A1B23"/>
+  </linearGradient>
+  <radialGradient id="hgW" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#D9743C" stop-opacity=".30"/><stop offset="1" stop-color="#D9743C" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="640" height="400" fill="#071419"/>
+<g stroke="#12303A" stroke-width="1" opacity=".8">
+  <path d="M0 80H640M0 160H640M0 240H640M0 320H640"/>
+  <path d="M80 0V400M160 0V400M240 0V400M320 0V400M400 0V400M480 0V400M560 0V400"/>
+</g>
+
+<!-- idlers -->
+<circle cx="96" cy="112" r="22" fill="url(#stW)" stroke="#A7BFC5" stroke-width="1.5"/>
+<circle cx="192" cy="196" r="22" fill="url(#stW)" stroke="#A7BFC5" stroke-width="1.5"/>
+<circle cx="288" cy="118" r="22" fill="url(#stW)" stroke="#A7BFC5" stroke-width="1.5"/>
+<circle cx="96" cy="112" r="4" fill="#A7BFC5"/><circle cx="192" cy="196" r="4" fill="#A7BFC5"/><circle cx="288" cy="118" r="4" fill="#A7BFC5"/>
+<!-- film path -->
+<path d="M40 90 L74 90 A22 22 0 0 0 96 90 L96 90 C 120 108, 150 160, 172 182 A22 22 0 0 0 214 190 C 232 160, 258 122, 276 106 A22 22 0 0 1 310 118 C 340 152, 370 186, 400 202"
+      fill="none" stroke="#D9743C" stroke-width="2.6" stroke-linecap="round"/>
+<text x="40" y="76" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#D9743C">FROM NIP ROLLS</text>
+<!-- treater / gauge -->
+<rect x="140" y="252" width="128" height="42" rx="4" fill="url(#stW)" stroke="#A7BFC5" stroke-width="1.4"/>
+<text x="150" y="278" font-family="monospace" font-size="9" letter-spacing="1.5" text-anchor="start" fill="#EDF6F7">THICKNESS SCAN</text>
+<path d="M204 250v-32" stroke="#75929C" stroke-width="1.3" stroke-dasharray="4 4" marker-end="url(#adW)"/>
+<!-- winder shaft -->
+<circle cx="452" cy="212" r="118" fill="url(#stW)" stroke="#EDF6F7" stroke-width="1.8"/>
+<g><circle cx="452" cy="212" r="24" fill="none" stroke="#D9743C" stroke-width="1" opacity="0.55"/><circle cx="452" cy="212" r="33" fill="none" stroke="#D9743C" stroke-width="1" opacity="0.51"/><circle cx="452" cy="212" r="42" fill="none" stroke="#D9743C" stroke-width="1" opacity="0.47"/><circle cx="452" cy="212" r="51" fill="none" stroke="#D9743C" stroke-width="1" opacity="0.43"/><circle cx="452" cy="212" r="60" fill="none" stroke="#D9743C" stroke-width="1" opacity="0.39"/><circle cx="452" cy="212" r="69" fill="none" stroke="#D9743C" stroke-width="1" opacity="0.35"/><circle cx="452" cy="212" r="78" fill="none" stroke="#D9743C" stroke-width="1" opacity="0.31"/><circle cx="452" cy="212" r="87" fill="none" stroke="#D9743C" stroke-width="1" opacity="0.27"/><circle cx="452" cy="212" r="96" fill="none" stroke="#D9743C" stroke-width="1" opacity="0.23"/></g>
+<circle cx="452" cy="212" r="20" fill="#C9B48C" stroke="#A08E68" stroke-width="1.5"/>
+<circle cx="452" cy="212" r="9" fill="#8E8069"/>
+<path d="M452 78 a134 134 0 0 1 92 44" fill="none" stroke="#D9743C" stroke-width="1.6" marker-end="url(#arW)"/>
+<!-- support -->
+<path d="M452 330 L452 366 M410 366h84" stroke="#A7BFC5" stroke-width="2" stroke-linecap="round"/>
+<text x="40" y="318" font-family="monospace" font-size="9.5" letter-spacing="1.5" text-anchor="start" fill="#EDF6F7">SURFACE WINDER</text>
+<text x="40" y="334" font-family="monospace" font-size="9" letter-spacing="1.5" text-anchor="start" fill="#75929C">TENSION-CONTROLLED</text>
+<text x="40" y="348" font-family="monospace" font-size="9" letter-spacing="1.5" text-anchor="start" fill="#75929C">CONSTANT ROLL LENGTH</text>
+
+<text x="624" y="386" font-family="monospace" font-size="10" letter-spacing="2" text-anchor="end" fill="#75929C">WINDER</text>
+</svg>

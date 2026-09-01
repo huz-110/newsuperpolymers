@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Single screw extruder">
+<defs>
+  <marker id="arE" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0 0L10 5L0 10z" fill="#D9743C"/>
+  </marker>
+  <marker id="adE" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M0 0L10 5L0 10z" fill="#75929C"/>
+  </marker>
+  <linearGradient id="mtE" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#D9743C" stop-opacity=".85"/><stop offset="1" stop-color="#E8C08A" stop-opacity=".35"/>
+  </linearGradient>
+  <linearGradient id="stE" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1B3A45"/><stop offset="0.5" stop-color="#102630"/><stop offset="1" stop-color="#0A1B23"/>
+  </linearGradient>
+  <radialGradient id="hgE" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#D9743C" stop-opacity=".30"/><stop offset="1" stop-color="#D9743C" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="640" height="400" fill="#071419"/>
+<g stroke="#12303A" stroke-width="1" opacity=".8">
+  <path d="M0 80H640M0 160H640M0 240H640M0 320H640"/>
+  <path d="M80 0V400M160 0V400M240 0V400M320 0V400M400 0V400M480 0V400M560 0V400"/>
+</g>
+
+<!-- hopper -->
+<path d="M96 44h84v40l-20 30h-44l-20-30z" fill="url(#stE)" stroke="#EDF6F7" stroke-width="1.5"/>
+<g fill="#75929C" opacity=".8"><circle cx="120" cy="66" r="3.2"/><circle cx="138" cy="74" r="3.2"/><circle cx="156" cy="64" r="3.2"/><circle cx="129" cy="88" r="3.2"/><circle cx="149" cy="90" r="3.2"/></g>
+<path d="M138 118v34" stroke="#D9743C" stroke-width="1.6" marker-end="url(#arE)"/>
+<text x="96" y="34" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#EDF6F7">DRY BLEND FEED</text>
+<!-- drive -->
+<rect x="52" y="176" width="60" height="70" rx="6" fill="url(#stE)" stroke="#A7BFC5" stroke-width="1.5"/>
+<circle cx="82" cy="211" r="15" fill="none" stroke="#75929C" stroke-width="1.4"/>
+<circle cx="82" cy="211" r="5" fill="#75929C"/>
+<text x="52" y="266" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#75929C">DRIVE</text>
+<text x="52" y="280" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#75929C">GEARBOX</text>
+<!-- barrel -->
+<rect x="112" y="164" width="392" height="94" rx="10" fill="url(#stE)" stroke="#EDF6F7" stroke-width="1.6"/>
+<g><rect x="176" y="164" width="16" height="94" rx="3" fill="#D9743C" opacity="0.20" stroke="#D9743C" stroke-width="1"/><rect x="228" y="164" width="16" height="94" rx="3" fill="#D9743C" opacity="0.30" stroke="#D9743C" stroke-width="1"/><rect x="280" y="164" width="16" height="94" rx="3" fill="#D9743C" opacity="0.40" stroke="#D9743C" stroke-width="1"/><rect x="332" y="164" width="16" height="94" rx="3" fill="#D9743C" opacity="0.50" stroke="#D9743C" stroke-width="1"/><rect x="384" y="164" width="16" height="94" rx="3" fill="#D9743C" opacity="0.60" stroke="#D9743C" stroke-width="1"/><rect x="436" y="164" width="16" height="94" rx="3" fill="#D9743C" opacity="0.70" stroke="#D9743C" stroke-width="1"/></g>
+<rect x="112" y="164" width="392" height="94" rx="10" fill="none" stroke="#EDF6F7" stroke-width="1.6"/>
+<!-- screw -->
+<path d="M124 198h372v26H124z" fill="#123039"/>
+<path d="M124 202 L496 190 L496 232 L124 220 Z" fill="#17404C" opacity=".9"/>
+<g clip-path="none"><path d="M150 178 L166 244" stroke="#A7BFC5" stroke-width="2.2" stroke-linecap="round" opacity=".9"/><path d="M184 178 L200 244" stroke="#A7BFC5" stroke-width="2.2" stroke-linecap="round" opacity=".9"/><path d="M216 178 L232 244" stroke="#A7BFC5" stroke-width="2.2" stroke-linecap="round" opacity=".9"/><path d="M248 178 L264 244" stroke="#A7BFC5" stroke-width="2.2" stroke-linecap="round" opacity=".9"/><path d="M277 178 L293 244" stroke="#A7BFC5" stroke-width="2.2" stroke-linecap="round" opacity=".9"/><path d="M305 178 L321 244" stroke="#A7BFC5" stroke-width="2.2" stroke-linecap="round" opacity=".9"/><path d="M332 178 L348 244" stroke="#A7BFC5" stroke-width="2.2" stroke-linecap="round" opacity=".9"/><path d="M356 178 L372 244" stroke="#A7BFC5" stroke-width="2.2" stroke-linecap="round" opacity=".9"/><path d="M380 178 L396 244" stroke="#A7BFC5" stroke-width="2.2" stroke-linecap="round" opacity=".9"/><path d="M402 178 L418 244" stroke="#A7BFC5" stroke-width="2.2" stroke-linecap="round" opacity=".9"/><path d="M422 178 L438 244" stroke="#A7BFC5" stroke-width="2.2" stroke-linecap="round" opacity=".9"/><path d="M442 178 L458 244" stroke="#A7BFC5" stroke-width="2.2" stroke-linecap="round" opacity=".9"/><path d="M459 178 L475 244" stroke="#A7BFC5" stroke-width="2.2" stroke-linecap="round" opacity=".9"/></g>
+<path d="M124 211h372" stroke="#75929C" stroke-width="1" stroke-dasharray="6 5" opacity=".6"/>
+<!-- zones -->
+<g stroke="#75929C" stroke-width="1" stroke-dasharray="3 4" opacity=".55">
+  <path d="M240 152v-22M356 152v-22M504 152v-22"/>
+</g>
+<g font-family="monospace" font-size="9" letter-spacing="1.2" fill="#75929C">
+  <text x="176" y="126">FEED</text><text x="278" y="126">COMPRESSION</text><text x="404" y="126">METERING</text>
+</g>
+<!-- melt out -->
+<path d="M504 200h44v-40" fill="none" stroke="url(#mtE)" stroke-width="7" stroke-linecap="round"/>
+<path d="M548 172v-24" stroke="#D9743C" stroke-width="1.8" marker-end="url(#arE)"/>
+<text x="624" y="140" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="end" fill="#D9743C">TO DIE</text>
+<g font-family="monospace" font-size="9.5" letter-spacing="1.2" fill="#75929C">
+  <text x="112" y="300">SINGLE-SCREW · L/D 24:1 · ZONED PID HEAT CONTROL</text>
+  <text x="112" y="318">SHEAR + HEAT → HOMOGENOUS PVC MELT</text>
+  <text x="112" y="336" fill="#D9743C">MELT TEMPERATURE HELD TO ±2 °C</text>
+</g>
+
+<text x="624" y="386" font-family="monospace" font-size="10" letter-spacing="2" text-anchor="end" fill="#75929C">SINGLE SCREW EXTRUDER</text>
+</svg>

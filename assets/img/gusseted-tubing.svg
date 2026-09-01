@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Gusseted PVC lay flat tubing">
+<defs>
+ <linearGradient id="bgG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071419"/><stop offset="1" stop-color="#050F15"/></linearGradient>
+ <marker id="arG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#E8C08A"/></marker>
+</defs>
+<rect width="800" height="600" fill="url(#bgG)"/>
+<g stroke="#12303A" stroke-width="1" opacity=".85"><path d="M0 150H800M0 300H800M0 450H800"/><path d="M160 0V600M320 0V600M480 0V600M640 0V600"/></g>
+<defs>
+ <linearGradient id="gb" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#9FB7C3"/><stop offset=".14" stop-color="#DCE9EE"/><stop offset=".34" stop-color="#AFC7D3"/>
+  <stop offset=".5" stop-color="#8FA9B7"/><stop offset=".66" stop-color="#AFC7D3"/><stop offset=".86" stop-color="#DCE9EE"/>
+  <stop offset="1" stop-color="#9FB7C3"/></linearGradient>
+</defs>
+<ellipse cx="240" cy="312" rx="38" ry="104" fill="#3E5A66"/>
+<rect x="240" y="208" width="320" height="208" fill="url(#gb)"/>
+<g stroke="#8FB4C0" stroke-width="1.4" opacity=".85"><path d="M240 260h320M240 364h320"/></g>
+<g stroke="#fff" stroke-width="1" opacity=".5"><path d="M240 266h320M240 358h320"/></g>
+<ellipse cx="560" cy="312" rx="38" ry="104" fill="#DDE9EE" stroke="#9FC3CE" stroke-width="1.2"/>
+<path d="M560 208 L546 260 L560 312 L546 364 L560 416" fill="none" stroke="#E8C08A" stroke-width="2.4" stroke-linejoin="round"/>
+<ellipse cx="560" cy="312" rx="11" ry="30" fill="#C9B48C" stroke="#A08E68" stroke-width="1.2"/>
+<g stroke="#E8C08A" stroke-width="1.2" fill="none" stroke-dasharray="4 4"><path d="M620 260h44M620 364h44"/></g>
+<text x="672" y="256" font-family="monospace" font-size="11" letter-spacing="1.5" text-anchor="start" fill="#E8C08A">SIDE</text>
+<text x="672" y="272" font-family="monospace" font-size="11" letter-spacing="1.5" text-anchor="start" fill="#E8C08A">GUSSET</text>
+<text x="80" y="464" font-family="monospace" font-size="11" letter-spacing="1.5" text-anchor="start" fill="#75929C">FOLDS INWARD — SQUARES OFF THE PACK</text>
+<text x="80" y="482" font-family="monospace" font-size="11" letter-spacing="1.5" text-anchor="start" fill="#75929C">MORE VOLUME, SAME FLAT WIDTH</text>
+<text x="760" y="566" font-family="monospace" font-size="10" letter-spacing="2" text-anchor="end" fill="#75929C">NSP · GUSSETED LAY FLAT TUBING</text></svg>

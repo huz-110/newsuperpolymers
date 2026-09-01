@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Air ring and film bubble">
+<defs>
+  <marker id="arA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0 0L10 5L0 10z" fill="#D9743C"/>
+  </marker>
+  <marker id="adA" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M0 0L10 5L0 10z" fill="#75929C"/>
+  </marker>
+  <linearGradient id="mtA" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#D9743C" stop-opacity=".85"/><stop offset="1" stop-color="#E8C08A" stop-opacity=".35"/>
+  </linearGradient>
+  <linearGradient id="stA" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1B3A45"/><stop offset="0.5" stop-color="#102630"/><stop offset="1" stop-color="#0A1B23"/>
+  </linearGradient>
+  <radialGradient id="hgA" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#D9743C" stop-opacity=".30"/><stop offset="1" stop-color="#D9743C" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="640" height="400" fill="#071419"/>
+<g stroke="#12303A" stroke-width="1" opacity=".8">
+  <path d="M0 80H640M0 160H640M0 240H640M0 320H640"/>
+  <path d="M80 0V400M160 0V400M240 0V400M320 0V400M400 0V400M480 0V400M560 0V400"/>
+</g>
+
+<!-- die stub -->
+<rect x="252" y="336" width="136" height="46" rx="6" fill="url(#stA)" stroke="#EDF6F7" stroke-width="1.5"/>
+<!-- air ring -->
+<path d="M196 306h72l14 26h-86z" fill="url(#stA)" stroke="#EDF6F7" stroke-width="1.5"/>
+<path d="M444 306h-72l-14 26h86z" fill="url(#stA)" stroke="#EDF6F7" stroke-width="1.5"/>
+<text x="60" y="322" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#EDF6F7">AIR RING</text>
+<text x="60" y="338" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#75929C">COOLING</text>
+<path d="M120 316h68" stroke="#A7BFC5" stroke-width="1.5" marker-end="url(#adA)"/>
+<path d="M520 316h-68" stroke="#A7BFC5" stroke-width="1.5" marker-end="url(#adA)"/>
+<!-- bubble -->
+<path d="M282 332 C 276 288, 236 268, 224 214 C 216 176, 220 120, 222 62"
+      fill="none" stroke="#D9743C" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M358 332 C 364 288, 404 268, 416 214 C 424 176, 420 120, 418 62"
+      fill="none" stroke="#D9743C" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M282 332 C 276 288, 236 268, 224 214 C 216 176, 220 120, 222 62 L418 62 C 420 120, 424 176, 416 214 C 404 268, 364 288, 358 332 Z"
+      fill="url(#hgA)" opacity=".9"/>
+<!-- frost line -->
+<path d="M170 214h300" stroke="#A7BFC5" stroke-width="1.2" stroke-dasharray="5 5"/>
+<text x="480" y="210" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#A7BFC5">FROST LINE</text>
+<text x="480" y="226" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#75929C">MELT → SOLID</text>
+<!-- cooling arrows -->
+<g stroke="#A7BFC5" stroke-width="1.3" fill="none" opacity=".8">
+ <path d="M196 296 C 210 276, 216 258, 218 236" marker-end="url(#adA)"/>
+ <path d="M444 296 C 430 276, 424 258, 422 236" marker-end="url(#adA)"/>
+</g>
+<!-- BUR -->
+<g stroke="#D9743C" stroke-width="1.2" fill="none">
+  <path d="M222 46h196"/><path d="M222 40v12M418 40v12"/>
+</g>
+<text x="320" y="32" font-family="monospace" font-size="9" letter-spacing="1.5" text-anchor="middle" fill="#D9743C">BLOW-UP RATIO SETS LAY-FLAT WIDTH</text>
+<!-- internal air -->
+<path d="M320 380V206" stroke="#75929C" stroke-width="1.2" stroke-dasharray="5 5"/>
+<path d="M320 268v-38" stroke="#75929C" stroke-width="1.4" marker-end="url(#adA)"/>
+<text x="60" y="378" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#75929C">INTERNAL AIR</text>
+<text x="60" y="392" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#75929C">HOLDS THE BUBBLE</text>
+
+<text x="624" y="386" font-family="monospace" font-size="10" letter-spacing="2" text-anchor="end" fill="#75929C">AIR RING AND FILM BUBBLE</text>
+</svg>

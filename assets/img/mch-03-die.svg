@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Annular die head cross section">
+<defs>
+  <marker id="arD" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M0 0L10 5L0 10z" fill="#D9743C"/>
+  </marker>
+  <marker id="adD" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M0 0L10 5L0 10z" fill="#75929C"/>
+  </marker>
+  <linearGradient id="mtD" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#D9743C" stop-opacity=".85"/><stop offset="1" stop-color="#E8C08A" stop-opacity=".35"/>
+  </linearGradient>
+  <linearGradient id="stD" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1B3A45"/><stop offset="0.5" stop-color="#102630"/><stop offset="1" stop-color="#0A1B23"/>
+  </linearGradient>
+  <radialGradient id="hgD" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#D9743C" stop-opacity=".30"/><stop offset="1" stop-color="#D9743C" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="640" height="400" fill="#071419"/>
+<g stroke="#12303A" stroke-width="1" opacity=".8">
+  <path d="M0 80H640M0 160H640M0 240H640M0 320H640"/>
+  <path d="M80 0V400M160 0V400M240 0V400M320 0V400M400 0V400M480 0V400M560 0V400"/>
+</g>
+
+<g transform="translate(0,10)">
+<!-- melt inlet -->
+<path d="M40 262h74" stroke="url(#mtD)" stroke-width="9" stroke-linecap="round"/>
+<path d="M96 262h22" stroke="#D9743C" stroke-width="1.6" marker-end="url(#arD)"/>
+<text x="40" y="246" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#D9743C">MELT IN</text>
+<!-- die body left -->
+<path d="M118 214h96l24 -46v-58h-30v40l-24 30h-66z" fill="url(#stD)" stroke="#EDF6F7" stroke-width="1.5"/>
+<path d="M118 310h96l24 46v54h-30v-36l-24 -30h-66z" fill="url(#stD)" stroke="#EDF6F7" stroke-width="1.5"/>
+<!-- die body right -->
+<path d="M522 214h-96l-24 -46v-58h30v40l24 30h66z" fill="url(#stD)" stroke="#EDF6F7" stroke-width="1.5"/>
+<path d="M522 310h-96l-24 46v54h-30v-36l24 -30h66z" fill="url(#stD)" stroke="#EDF6F7" stroke-width="1.5"/>
+<rect x="118" y="214" width="404" height="96" rx="8" fill="url(#stD)" stroke="#EDF6F7" stroke-width="1.6"/>
+<!-- mandrel with spiral -->
+<path d="M262 214h116v96H262z" fill="#0C1F28" stroke="#A7BFC5" stroke-width="1.4"/>
+<path d="M296 214v96M320 214v96M344 214v96" stroke="#75929C" stroke-width="1" opacity=".5"/>
+<g stroke="#D9743C" stroke-width="2" fill="none" opacity=".85">
+  <path d="M266 300 L296 236"/><path d="M290 300 L320 236"/><path d="M314 300 L344 236"/><path d="M338 300 L368 236"/>
+</g>
+<text x="262" y="332" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#A7BFC5">SPIRAL MANDREL</text>
+<!-- annular gap -->
+<path d="M214 168 L238 122" stroke="#D9743C" stroke-width="0" />
+<rect x="208" y="106" width="30" height="0" fill="none"/>
+<!-- melt path -->
+<path d="M150 262 C 190 262, 200 220, 214 190 L 226 120" fill="none" stroke="url(#mtD)" stroke-width="6" stroke-linecap="round" opacity=".9"/>
+<path d="M490 262 C 450 262, 440 220, 426 190 L 414 120" fill="none" stroke="url(#mtD)" stroke-width="6" stroke-linecap="round" opacity=".9"/>
+<path d="M226 118v-24" stroke="#D9743C" stroke-width="1.6" marker-end="url(#arD)"/>
+<path d="M414 118v-24" stroke="#D9743C" stroke-width="1.6" marker-end="url(#arD)"/>
+<!-- air core -->
+<path d="M320 410 V 96" stroke="#A7BFC5" stroke-width="1.4" stroke-dasharray="6 5"/>
+<path d="M320 120v-26" stroke="#A7BFC5" stroke-width="1.6" marker-end="url(#adD)"/>
+<text x="330" y="404" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#A7BFC5">INTERNAL AIR</text>
+<!-- annulus label -->
+<g stroke="#D9743C" stroke-width="1.2" fill="none">
+  <path d="M226 88h-38M414 88h38"/>
+</g>
+<text x="180" y="66" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="end" fill="#D9743C">ANNULAR</text>
+<text x="180" y="80" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="end" fill="#D9743C">DIE GAP</text>
+<text x="460" y="66" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#D9743C">MELT TUBE</text>
+<text x="460" y="80" font-family="monospace" font-size="10" letter-spacing="1.5" text-anchor="start" fill="#D9743C">EXITS UPWARD</text>
+</g>
+
+<text x="624" y="386" font-family="monospace" font-size="10" letter-spacing="2" text-anchor="end" fill="#75929C">ANNULAR DIE HEAD CROSS SECTION</text>
+</svg>
