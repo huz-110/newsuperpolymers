@@ -270,7 +270,7 @@ def head(title, desc, pre, canon, extra=""):
 <script>document.documentElement.className+=" js";</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Rubik:ital,wght@0,300..700;1,300..500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{pre}assets/css/site.css">
 <link rel="icon" href="{pre}assets/img/favicon.svg" type="image/svg+xml">
 {extra}</head>'''
@@ -717,10 +717,10 @@ def build_home():
 <section class="sec dark-2">
   <div class="wrap split">
     <div class="rv">
-      {eyebrow("07", "Director's desk")}
+      {eyebrow("07", "Managing Director's desk")}
       <div style="border:1px solid var(--ink-line);border-radius:3px;padding:2rem">
         <p class="h4" style="margin-bottom:.4rem">Khudbuddin Plasticwala</p>
-        <p class="mono" style="color:var(--fg-inv-3)">Director</p>
+        <p class="mono" style="color:var(--fg-inv-3)">Managing Director</p>
         <hr class="rule" style="margin:1.5rem 0">
         <p class="small" style="color:var(--fg-inv-2)">
           <a href="mailto:{MAILMD}">{MAILMD}</a><br>
@@ -1164,10 +1164,10 @@ def build_about():
 <section class="sec-sm paper-2">
   <div class="wrap split">
     <div class="rv">
-      {eyebrow("03", "Director's desk")}
+      {eyebrow("03", "Managing Director's desk")}
       <div class="card" style="padding:2rem">
         <p class="h3" style="margin-bottom:.4rem">Khudbuddin Plasticwala</p>
-        <p class="mono muted">Director</p>
+        <p class="mono muted">Managing Director</p>
         <hr class="rule" style="margin:1.5rem 0">
         <p class="small"><a href="mailto:{MAILMD}">{MAILMD}</a><br>
         <a href="tel:{TEL1R}">{TEL1}</a></p>
@@ -1179,7 +1179,7 @@ def build_about():
       <blockquote class="quote">&ldquo;Punctuality is not a soft quality in this business. A packer whose
       film is late has a line standing still and staff standing next to it. We have built the whole
       company around not being the reason that happens.&rdquo;</blockquote>
-      <p class="mono muted" style="margin-top:2rem">Khudbuddin Plasticwala · Director</p>
+      <p class="mono muted" style="margin-top:2rem">Khudbuddin Plasticwala · Managing Director</p>
       <hr class="rule" style="margin:2.5rem 0">
       <p class="lead">Quality and customer satisfaction are what we are known for, and on-time delivery
       is what earned us that. It has always been our intent to give the customer the best of the
@@ -1293,7 +1293,7 @@ def build_contact():
         <p class="mono muted" style="margin-bottom:.9rem">Sales</p>
         <p><a href="mailto:{MAILSA}">{MAILSA}</a></p>
         <hr class="rule" style="margin:1.25rem 0">
-        <p class="mono muted" style="margin-bottom:.9rem">Director</p>
+        <p class="mono muted" style="margin-bottom:.9rem">Managing Director</p>
         <p class="h4" style="margin-bottom:.3rem">Khudbuddin Plasticwala</p>
         <p class="small"><a href="mailto:{MAILMD}">{MAILMD}</a></p>
       </div>

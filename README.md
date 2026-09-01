@@ -122,8 +122,8 @@ variation comes from elevation and hue drift, never from inverting the page.
 - **Glass** `rgba(214,238,242,.045)` panels, `.10` edges, 1px inset specular top-line
 - **Accent** champagne gold `#E8C08A` with molten copper `#D9743C` — one warm family
   against the cool ground; gold for elegance, copper for the melt
-- **Instrument Serif** for statements, **Schibsted Grotesk** for structure,
-  **IBM Plex Mono** for technical data
+- **Rubik** for statements and structure (600 for display, tight negative tracking;
+  300 italic for pull quotes), **IBM Plex Mono** for technical data
 - Fixed ambient light behind the whole page (`body::before`) plus a fine grain layer
   (`body::after`) that prevents banding in the large gradients
 - Fluid type scale — every size is a `clamp()`, so nothing needs breakpoint overrides
