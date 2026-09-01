@@ -560,8 +560,9 @@ body.menu-open .mobile-nav a.mn-link { opacity: 1; transform: none; }
 .ftr-mark {
   margin-top: clamp(2.5rem, 5vw, 4rem); padding-top: clamp(2rem, 3vw, 3rem);
   font-family: var(--font-display); font-weight: 400;
-  font-size: clamp(2.4rem, 9.2vw, 8.5rem); line-height: .88; letter-spacing: -.03em;
+  font-size: clamp(2.4rem, 9.2vw, 8.5rem); line-height: 1.06; letter-spacing: -.03em;
   text-align: center; white-space: nowrap; overflow: hidden;
+  padding-bottom: .18em;
   background: linear-gradient(178deg, rgba(232,192,138,.32) 0%, rgba(232,192,138,.05) 74%, transparent 100%);
   -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;
   user-select: none;
@@ -693,9 +694,11 @@ body.menu-open .mobile-nav a.mn-link { opacity: 1; transform: none; }
 /* The gradient has to live on each line: background-clip:text on an ancestor
    stops resolving once descendants are transformed inside overflow:hidden. */
 .hero-lines.grade { background: none; -webkit-text-fill-color: currentColor; color: var(--fg); }
+/* Descenders (the j in "No joint.") need room on two counts: the mask must
+   not clip them, and the gradient's background box must still cover them. */
 .hero-lines .hl {
   display: block; overflow: hidden;
-  padding-bottom: .14em; margin-bottom: -.14em;
+  padding-bottom: .32em; margin-bottom: -.32em;
 }
 .hero-lines .hl > i {
   display: block; font-style: normal;
@@ -703,7 +706,8 @@ body.menu-open .mobile-nav a.mn-link { opacity: 1; transform: none; }
   animation: lineUp 1.05s var(--ease-out) forwards;
 }
 .hero-lines.grade .hl > i {
-  background: linear-gradient(180deg, #FFF6E7 0%, var(--gold) 62%, var(--gold-2) 100%);
+  padding-bottom: .32em; margin-bottom: -.32em;
+  background: linear-gradient(180deg, #FFF6E7 0%, var(--gold) 52%, var(--gold-2) 84%);
   -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent; color: transparent;
 }
